@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="150" viewBox="0 0 840 150" role="img" aria-label="Featured project: Dri Valé, streetwear store in Yopougon, storefront plus stock and point of sale.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15121a"/><stop offset=".6" stop-color="#1f1a12"/><stop offset="1" stop-color="#2b1f08"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fde68a"/><stop offset=".5" stop-color="#f2b632"/><stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect x="2" y="2" width="836" height="146" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .eyebrow { font: 700 15px 'Segoe UI', Ubuntu, Arial, sans-serif; letter-spacing: 3px; fill: #f2b632; }
+    .name { font: 800 54px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: #f8f7f4; }
+    .accent { font: italic 600 54px Georgia, 'Times New Roman', serif; fill: url(#gold); }
+    .sub { font: 500 19px 'Segoe UI', Ubuntu, Arial, sans-serif; fill: #d6d3d1; }
+    .shine { animation: sweep 4.5s ease-in-out infinite; }
+    .border { animation: pulse 3s ease-in-out infinite; }
+    .dot { transform-origin: 44px 38px; animation: ping 1.8s cubic-bezier(0, 0, .2, 1) infinite; }
+    .ring { transform-origin: 735px 75px; animation: spin 14s linear infinite; }
+    @keyframes sweep { 0% { transform: translateX(-420px); } 60%, 100% { transform: translateX(900px); } }
+    @keyframes pulse { 0%, 100% { stroke-opacity: .4; } 50% { stroke-opacity: 1; } }
+    @keyframes ping { 0% { transform: scale(1); opacity: .8; } 80%, 100% { transform: scale(2.6); opacity: 0; } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .shine, .border, .dot, .ring { animation: none; } }
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="840" height="150" fill="url(#bg)"/>
+    <circle cx="760" cy="10" r="160" fill="#f2b632" opacity=".08"/>
+    <rect class="shine" x="0" y="-40" width="260" height="230" fill="url(#shine)" transform="skewX(-20)"/>
+  </g>
+  <rect class="border" x="2" y="2" width="836" height="146" rx="22" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <circle class="dot" cx="44" cy="38" r="6" fill="#f2b632"/>
+  <circle cx="44" cy="38" r="6" fill="#f2b632"/>
+  <text class="eyebrow" x="60" y="44">FEATURED PROJECT · LIVE</text>
+  <text x="34" y="102"><tspan class="name">Dri</tspan><tspan class="accent" dx="14">Valé</tspan></text>
+  <text class="sub" x="36" y="132">Streetwear store in Yopougon: storefront, stock and point of sale.</text>
+  <g class="ring">
+    <circle cx="735" cy="75" r="50" fill="none" stroke="url(#gold)" stroke-width="2" stroke-dasharray="4 7"/>
+  </g>
+  <g transform="translate(735 75)" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-28 -12 L-11 -21 Q0 -11 11 -21 L28 -12 L21 3 L13 -1 L13 25 L-13 25 L-13 -1 L-21 3 Z"/>
+  </g>
+</svg>

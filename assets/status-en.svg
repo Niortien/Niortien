@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="64" viewBox="0 0 820 64" role="img" aria-label="Available. Full-Stack Developer at LUNION-LAB, founder of Mon Djossi.">
+  <style>
+    .t { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #e6edf3; }
+    .b { fill: #3fb950; }
+    .halo { fill: #3fb950; transform-origin: 40px 32px; animation: ping 1.8s cubic-bezier(0, 0, .2, 1) infinite; }
+    .card { animation: glow 3.6s ease-in-out infinite; }
+    @keyframes ping { 0% { transform: scale(1); opacity: .7; } 80%, 100% { transform: scale(2.6); opacity: 0; } }
+    @keyframes glow { 0%, 100% { stroke: #238636; } 50% { stroke: #3fb950; } }
+    @media (prefers-reduced-motion: reduce) { .halo, .card { animation: none; } }
+  </style>
+  <rect class="card" x="1.5" y="1.5" width="817" height="61" rx="30.5" fill="#0d1117" stroke="#238636" stroke-width="2"/>
+  <circle class="halo" cx="40" cy="32" r="7"/>
+  <circle class="b" cx="40" cy="32" r="7"/>
+  <text class="t" x="62" y="39">Available · Full-Stack Developer @ LUNION-LAB · Founder of Mon Djossi</text>
+</svg>
