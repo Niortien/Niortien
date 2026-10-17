@@ -107,6 +107,14 @@ L'outil de Dri Valé est devenu un produit ouvert à toutes les boutiques : **Mo
 
 ---
 
+## 🧭 Toute ma carrière
+
+<p align="center">
+  <img src="assets/timeline-fr.svg" alt="Frise de toute ma carrière : formations, stages, poste chez LUNION-LAB et chaque projet, de 2021 à aujourd'hui" />
+</p>
+
+---
+
 ## 🌍 Projets en ligne
 
 | Projet | Ce que c'est | Lien |
@@ -235,6 +243,14 @@ The Dri Valé system became a product for every shop: **Mon Djossi**. The till k
 |---|---|
 | 🟢 **LUNION-LAB** · Full-Stack Developer<br/>📍 Cocody, Abidjan · Aug 2025 → present | 9+ applications shipped to production: ERP and finance for Turbo Delivery, online ordering for Chicken-Nation, Catholikia, real estate platforms, fleet management for SATE. Before that: 7 months of Next.js / NestJS training and internship at LUNION-LAB (Jan → Jul 2025). |
 | 🔵 **SOTRA** · Web Developer (intern)<br/>📍 Vridi, Abidjan · Aug → Nov 2024 | Database designed with MERISE, internal management app in WinDev, SQL reporting queries. Delivered in 4 months and approved by the IT department. |
+
+---
+
+## 🧭 My whole career
+
+<p align="center">
+  <img src="assets/timeline-en.svg" alt="Timeline of my whole career: education, internships, my role at LUNION-LAB and every project, from 2021 to today" />
+</p>
 
 ---
 
